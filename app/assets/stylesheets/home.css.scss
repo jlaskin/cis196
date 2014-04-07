@@ -1,0 +1,182 @@
+.nav{
+	position: fixed;
+	width: 100%;
+	height: 42px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+}
+
+.nav li{
+	display: inline;
+}
+
+.right-links{
+	float: right;
+	margin-right: 3%;
+}
+
+.nav-link{
+	color: #404040;
+	font-family: arial,sans-serif;
+	font-size: small;
+	text-decoration: none;
+	float: left;
+	padding: 8px;
+	padding-top: 13px;
+	padding-bottom: 14px;
+	display: inline;
+}
+
+.nav-button {
+	position: relative;
+	top: 10px;
+	background-image: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	color: #fff;
+	font-size: small;
+	font-family: arial,sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 2px;
+	border: 1px #4285f4;
+	padding: 7px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+
+.bot-nav-link{
+	color: #666;
+	font-family: arial,sans-serif;
+	font-size: small;
+	text-decoration: none;
+	float: left;
+	padding: 15px;
+	padding-top: 13px;
+	padding-bottom: 14px;
+	display: inline;
+}
+
+.bot-navbar{
+	margin-bottom: 0px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 40px;
+}
+
+.bot-nav{
+	position: relative;
+	width: 100%;
+	height: 42px;
+	background-color: #f2f2f2;
+}
+
+.bot-nav li{
+	display: inline;
+	color: #666;
+}
+
+.bot-left{
+	width: 85%;
+	float: left;
+}
+
+.bot-right{
+	width: 80%;
+	float: right;
+	margin-right: 0px;
+
+}
+
+.content{
+	position: absolute;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: auto;
+	padding: 0px;
+	top: 110px;
+}
+
+.title{
+	height: 50%;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search-bar{
+	width: 500px;
+	border-radius: 5px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+}
+
+#box input{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.title a{
+	background-image: url('https://www.google.com/images/srpr/logo11w.png');
+	background-repeat: no-repeat;
+	background-size: 80%;
+	color:transparent;
+	height: 50%;
+	width: 20%;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;
+}
+
+#app-link a{
+	background-position: fixed;
+	background-image: url('http://i60.tinypic.com/2i1i91t.png');
+	border: 5px solid transparent;
+	height: 5px;
+	width: 5px;
+	background-repeat: no-repeat;
+	color: transparent;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+
+.buttons {
+	width: 53%;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#button input{
+	border-color: #c6c6c6;
+	background: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	box-shadow: 0 1px 0 rgba(0,0,0,.15);
+	font-family: arial,sans-serif;
+	font: bold 11px/27px Arial,sans-serif!important;
+	font-size: small;
+	background-color: rgba(0,0,0,.3);
+	border: 5px solid transparent;
+	display: inline;
+	width: 115px;
+	height: 30px;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
